@@ -65,7 +65,7 @@ git status --short --ignored
 3. **Main file path：** `streamlit_app.py`（repo 根目錄）
 4. **Deploy**
 
-**規劃網址：** `https://food-map-ncu-v1.streamlit.app`
+**實際網址：** https://boson-food-map-ncu-v1.streamlit.app
 
 **Secrets：** 日常讀 JSON 快取，**不必**設 `GOOGLE_MAPS_API_KEY`；僅伺服器端重抓 Places 時才需要。
 

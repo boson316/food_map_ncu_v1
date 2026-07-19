@@ -60,7 +60,7 @@ Ensure no API keys in JSON.
 3. **Main file path:** `streamlit_app.py` (repo root)
 4. **Deploy**
 
-**Planned URL:** `https://food-map-ncu-v1.streamlit.app`
+**Live URL:** https://boson-food-map-ncu-v1.streamlit.app
 
 **Secrets:** Not required for normal operation (reads JSON cache). Only needed if re-fetching Places on the server.
 

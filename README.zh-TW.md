@@ -3,7 +3,7 @@
 **Languages:** [English](README.md) · [中文](README.zh-TW.md)
 
 > **狀態：** 已上線資料就緒 · **規格：** [docs/v1-規格.md](docs/v1-規格.md)  
-> **Repo：** https://github.com/boson316/food_map_ncu_v1 · **Demo：** https://food-map-ncu-v1.streamlit.app（部署後）
+> **Repo：** https://github.com/boson316/food_map_ncu_v1 · **Demo：** https://boson-food-map-ncu-v1.streamlit.app
 
 國立中央大學中壢校本部周邊美食地圖。離線 Google Places 快取、黃氏星等×距離排序、15 類篩選、轉盤 Top 40。
 

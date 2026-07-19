@@ -3,7 +3,7 @@
 **Languages:** [English](README.md) · [中文](README.zh-TW.md)
 
 > **Status:** Data ready · **Spec:** [docs/v1-規格.md](docs/v1-規格.md)  
-> **Repo:** https://github.com/boson316/food_map_ncu_v1 · **Demo:** https://food-map-ncu-v1.streamlit.app (after deploy)
+> **Repo:** https://github.com/boson316/food_map_ncu_v1 · **Demo:** https://boson-food-map-ncu-v1.streamlit.app
 
 Food map around National Central University (Zhongli campus). Offline Google Places cache, Huang-weighted rating × distance sort, 15 food categories, wheel Top 40.
 
