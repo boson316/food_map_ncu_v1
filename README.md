@@ -17,6 +17,15 @@ Food map around National Central University (Zhongli campus). Offline Google Pla
 | Fetch pool | **3 km** |
 | Wheel | Top **40** |
 
+## Static site (GitHub Pages, no cold start)
+
+Streamlit Community Cloud's free tier sleeps idle apps. `web/` is a **static** Leaflet port with the same features (filters, distance, composite score, open-now, wheel) running entirely in the browser, so it never sleeps. The frontend is shared across campuses; school settings live in `SCHOOL` in `scripts/export_static.py`.
+
+- URL (once enabled): https://boson316.github.io/food_map_ncu_v1/
+- Data: `python scripts/export_static.py` writes `web/data/places.json` and `web/data/config.json`.
+- Deploy: `.github/workflows/pages.yml` re-exports and deploys on push to `main`. **One-time: Settings → Pages → Source → "GitHub Actions".**
+- Local preview: `python scripts/export_static.py && python -m http.server -d web 8000`
+
 ## Run locally
 
 ```powershell
